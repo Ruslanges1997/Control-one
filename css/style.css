@@ -1,0 +1,153 @@
+.container {
+    width: 50%;
+    min-height: 100px;
+    margin: 50px auto;
+}
+.top-block,
+.bottom-block,
+.add-block {
+    width: 100%;
+    padding: 20px;
+    min-height: 350px;
+    background-color: gainsboro;
+}
+
+.area {
+    width: 100%;
+    height: 200px;
+    resize: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.style {
+    font-style: italic;
+}
+
+.style_table {
+    display: flex;
+    flex-direction: column;
+}
+
+.colum_style {
+    width: 85%;
+    height: 30px;
+    margin: 5px 0px 0px 17px;
+}
+
+.backgroundColor,
+.colorText {
+    width: 306px;
+    height: 216px;
+    display: flex;
+    flex-wrap: wrap;
+    display: none;
+    top: 65%;
+    left: 50%;
+    position: absolute;
+}
+.colorsBg,
+.colorsTxt {
+    width: 100px;
+}
+
+.createTable {
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+}
+
+.bd_border {
+    width: 96%;
+    margin: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.selectFont {
+    width: 210px;
+    height: 30px;
+}
+
+.input_border_bd {
+    width: 80px;
+    height: 25px;
+}
+
+.backBtn {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: teal;
+    margin-left: 50px;
+    color: white;
+}
+
+.style_list {
+    display: flex;
+    flex-direction: column;
+}
+
+.input_list_margin {
+    margin: 5px 0px 5px 46px;
+
+    width: 84.5%;
+    height: 30px;
+}
+
+.select_list_margin {
+    height: 38px;
+    margin: 5px 0px 5px 6px;
+    width: 85%;
+}
+
+.center-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.addBtn,
+.saveBtn,
+.editBtn,
+.styleBtn,
+.btnColor {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    outline: none;
+    color: white;
+    border: none;
+}
+
+.editBtn {
+    background-color: yellow;
+    color: black;
+}
+
+.styleBtn {
+    background-color: blue;
+    margin-left: 5px;
+}
+
+.addBtn {
+    background-color: red;
+}
+
+.saveBtn {
+    background-color: green;
+}
+
+.btnColor {
+    background-color: grey;
+    width: max-content;
+}
